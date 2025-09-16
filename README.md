@@ -1,11 +1,11 @@
-![Demo](https://github.com/gitmacer/Fritzfon-Solardisplay/raw/main/Demo-Images/Demo.jpg)
+![Demo](https://github.com/gitmacer/Homedisplay-for-Fritzfon/raw/main/Demo-Images/Demo.jpg)
 # Examples/Beispiele:
-![SolarDisplay Battery](https://github.com/gitmacer/Fritzfon-Smarthome-Solardisplay/assets/37345589/fce7350f-7f46-4603-8784-0f61328b2df2)
-![Solar+ToHouse+House+FromToGrid-Today](https://github.com/gitmacer/Fritzfon-Smarthome-Solardisplay/assets/37345589/2d71dd87-4ab7-41e0-8c07-4111b19c373e)
-![Temperatur](https://github.com/gitmacer/Fritzfon-Smarthome-Solardisplay/assets/37345589/f207cb81-e4a4-4f2d-bf21-44c4c890f47a)
+![SolarDisplay Battery](https://github.com/gitmacer/Homedisplay-for-Fritzfon/assets/37345589/fce7350f-7f46-4603-8784-0f61328b2df2)
+![Solar+ToHouse+House+FromToGrid-Today](https://github.com/gitmacer/Homedisplay-for-Fritzfon/assets/37345589/2d71dd87-4ab7-41e0-8c07-4111b19c373e)
+![Temperatur](https://github.com/gitmacer/Homedisplay-for-Fritzfon/assets/37345589/f207cb81-e4a4-4f2d-bf21-44c4c890f47a)
 
-[Deutsche Anleitung](https://github.com/gitmacer/Fritzfon-Solardisplay#anleitung)   
-[English Guide](https://github.com/gitmacer/Fritzfon-Solardisplay#guide)
+[Deutsche Anleitung](https://github.com/gitmacer/Homedisplay-for-Fritzfon#anleitung)   
+[English Guide](https://github.com/gitmacer/Homedisplay-for-Fritzfon#guide)
 
 # Donationware:   
 Beachte, dass ein selbstgewählter Geldbetrag für die Nutzung erwartet wird.   
@@ -22,9 +22,9 @@ Also if you like my Projekt please give it a Github-star.
 # Solar image vs smart-home image:   
 Solar:
 - Nur Solar anzeige kann gewählt werden   
-![Solar-Power](https://github.com/gitmacer/Fritzfon-Solardisplay/assets/37345589/9f91daf3-7c41-4d00-b749-84b94d2290a1)
+![Solar-Power](https://github.com/gitmacer/Homedisplay-for-Fritzfon/assets/37345589/9f91daf3-7c41-4d00-b749-84b94d2290a1)
 - Solar zu Haus Anzeige   
-![SolarToHouse Marked](https://github.com/gitmacer/Fritzfon-Solardisplay/assets/37345589/ee503f7c-7d6a-434d-b161-d5f1fe88661e)
+![SolarToHouse Marked](https://github.com/gitmacer/Homedisplay-for-Fritzfon/assets/37345589/ee503f7c-7d6a-434d-b161-d5f1fe88661e)
 - Zu Haus und Haus berechnung
 - Kwh zu € berechnung
 
@@ -34,9 +34,9 @@ Smart-home image:
 - Beschriftung/Überschrift für jede Zeile
 - 3 Zeilen pro icon wenn Wert und Einheit auf klein gesetzt ist   
 - Einheit pro Wert   
-![Smat-home demo](https://github.com/gitmacer/Fritzfon-Solardisplay/assets/37345589/c25822db-7d0e-4c7b-8c77-589de90fc3eb)
+![Smat-home demo](https://github.com/gitmacer/Homedisplay-for-Fritzfon/assets/37345589/c25822db-7d0e-4c7b-8c77-589de90fc3eb)
 - Bunte Kreise   
-![circle](https://github.com/gitmacer/Fritzfon-Solardisplay/assets/37345589/c1300398-43e4-4751-a4a0-1c1009513d40)
+![circle](https://github.com/gitmacer/Homedisplay-for-Fritzfon/assets/37345589/c1300398-43e4-4751-a4a0-1c1009513d40)
 
 # Eingangs Variabeln
 ## Solar image:   
@@ -92,15 +92,15 @@ Es sind viele Anleitungen zur Inbetriebnahme von Node-Red verfügbar daher wird 
 Installiere [Node-Red image tools](https://flows.nodered.org/node/node-red-contrib-image-tools).   
 ![Jimp installation](https://user-images.githubusercontent.com/37345589/228313961-9bf6407b-8946-4bc2-8907-313227f4a952.gif)
 
-Lade die neuste Version [hier](https://github.com/gitmacer/Fritzfon-Solardisplay/releases) herunter und importiere diese (solar und/oder Smarthome image).   
+Lade die neuste Version [hier](https://github.com/gitmacer/Homedisplay-for-Fritzfon/releases) herunter und importiere diese (solar und/oder Smarthome image).   
 ![2  import](https://user-images.githubusercontent.com/37345589/228585979-1c44dbf8-88cb-423e-a701-2452e1fb4e81.gif)
 
 Füge ein "http in" node hinzu und vergebe eine Adresse.   
 ![3  SolarPower](https://user-images.githubusercontent.com/37345589/228586648-7bfe8aad-392e-4944-a9c8-b1b907f3c9d0.gif)
 
 # Daten Quellen:
-[Fritz Dect 200/210](https://github.com/gitmacer/Fritzfon-Solardisplay/tree/main#fritzdect-200210)   
-[InfluxDB](https://github.com/gitmacer/Fritzfon-Solardisplay/tree/main#influxdb)   
+[Fritz Dect 200/210](https://github.com/gitmacer/Homedisplay-for-Fritzfon/tree/main#fritzdect-200210)   
+[InfluxDB](https://github.com/gitmacer/Homedisplay-for-Fritzfon/tree/main#influxdb)   
 
 # Fritz!Dect 200/210:   
 Füge unter System/FRITZ!Box-Benutzer über die Fritzbox Oberfläche ein neuen benutzer hinzu mit nur SmartHome rechten.   
@@ -108,28 +108,28 @@ Melde die Steckdose an der Fritzbox an wenn noch nicht geschehen.
 Notiere die ain ohne leerzeichen unter Smart Home/Geräte und Gruppen/Stift oder vom Gerätegehäuse.   
 Installiere "node-red-contrib-fritzapi" über Palette wie du die image-tools installiert hast.   
 Füge ein change node hinzu und setze ain auf die notierte nummer.   
-![Add Fritz ain change](https://github.com/gitmacer/Fritzfon-Solardisplay/assets/37345589/ac329e2b-1d08-44e3-b3a8-393acd6b034a)   
+![Add Fritz ain change](https://github.com/gitmacer/Homedisplay-for-Fritzfon/assets/37345589/ac329e2b-1d08-44e3-b3a8-393acd6b034a)   
 
 ### Solar image:   
 Füge ein outlet node hinzu und setze die Zugangsdaten und Action auf "get power".
-![Add Fritz outlet](https://github.com/gitmacer/Fritzfon-Solardisplay/assets/37345589/ab8ac073-1f4a-471e-aece-e29aa4c1e0c3)   
+![Add Fritz outlet](https://github.com/gitmacer/Homedisplay-for-Fritzfon/assets/37345589/ab8ac073-1f4a-471e-aece-e29aa4c1e0c3)   
 Füge ein change node hinzu welches msg.solar auf msg.payload setzt.   
-![Add payload to solar](https://github.com/gitmacer/Fritzfon-Solardisplay/assets/37345589/f40010ac-787c-4377-9d56-bd18b15d37d9)   
+![Add payload to solar](https://github.com/gitmacer/Homedisplay-for-Fritzfon/assets/37345589/f40010ac-787c-4377-9d56-bd18b15d37d9)   
 Füge ein solar image node hinzu und konfiguriere ihn nach deinen Wünschen.   
-![Add solar node](https://github.com/gitmacer/Fritzfon-Solardisplay/assets/37345589/5f0320f6-43e0-490e-befa-ea7d05fc58c4)   
+![Add solar node](https://github.com/gitmacer/Homedisplay-for-Fritzfon/assets/37345589/5f0320f6-43e0-490e-befa-ea7d05fc58c4)   
 
 ### smart-home:   
 Importiere folgenden Subflow und setze die Zugangsdaten.   
 ```
 [{"id":"3f152da42a676d42","type":"subflow","name":"Dect 200/210","info":"# override options\r\nmsg.ain as string","category":"","in":[{"x":60,"y":40,"wires":[{"id":"d77040f4713bfce5"}]}],"out":[{"x":1940,"y":40,"wires":[{"id":"99465cf54a644259","port":0}]}],"env":[{"name":"ain","type":"str","value":"","ui":{"type":"input","opts":{"types":["str"]}}}],"meta":{"version":"0.0.2","author":"Tim Oberle","keywords":"fritz"},"color":"#2E90DD","icon":"node-red-contrib-fritzapi/fritz.png"},{"id":"1f0a79874e2a8d70","type":"fritz-outlet","z":"3f152da42a676d42","connection":"4064abf62c97a123","name":"online","action":"getSwitchPresence","x":290,"y":40,"wires":[["853c5c722062d483"]]},{"id":"853c5c722062d483","type":"function","z":"3f152da42a676d42","name":"msg.online","func":"msg.online = msg.payload == 1\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","libs":[],"x":430,"y":40,"wires":[["a17d2148153105fe"]]},{"id":"a17d2148153105fe","type":"fritz-outlet","z":"3f152da42a676d42","connection":"4064abf62c97a123","name":"state","action":"getSwitchState","x":570,"y":40,"wires":[["016ff3e84df1a818"]]},{"id":"016ff3e84df1a818","type":"function","z":"3f152da42a676d42","name":"msg.state","func":"msg.state = msg.payload == 1\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","libs":[],"x":700,"y":40,"wires":[["268c337afbfc4e5d"]]},{"id":"268c337afbfc4e5d","type":"function","z":"3f152da42a676d42","name":"circle","func":"msg.circle = msg.state ? \"green\" : \"red\";\n\nif(msg.online == true){}\nelse{\n    delete msg.circle;\n}\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","libs":[],"x":830,"y":40,"wires":[["60fb6b3b6514189c"]]},{"id":"60fb6b3b6514189c","type":"fritz-outlet","z":"3f152da42a676d42","connection":"4064abf62c97a123","name":"power","action":"getSwitchPower","x":950,"y":40,"wires":[["a86270d47a8a3c11"]]},{"id":"a86270d47a8a3c11","type":"function","z":"3f152da42a676d42","name":"msg.power","func":"msg.power = msg.payload;\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","libs":[],"x":1090,"y":40,"wires":[["3a61caa56fda9e4e"]]},{"id":"3a61caa56fda9e4e","type":"fritz-outlet","z":"3f152da42a676d42","connection":"4064abf62c97a123","name":"energy","action":"getSwitchEnergy","x":1240,"y":40,"wires":[["8df7066bef1ab277"]]},{"id":"8df7066bef1ab277","type":"function","z":"3f152da42a676d42","name":"msg.energy","func":"msg.energy = msg.payload;\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","libs":[],"x":1390,"y":40,"wires":[["a45259d717a93231"]]},{"id":"a45259d717a93231","type":"fritz-outlet","z":"3f152da42a676d42","connection":"4064abf62c97a123","name":"temp","action":"getTemperature","x":1530,"y":40,"wires":[["d744c1e9f07ca30d"]]},{"id":"d744c1e9f07ca30d","type":"function","z":"3f152da42a676d42","name":"msg.temperature","func":"msg.temperature = msg.payload;\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","libs":[],"x":1690,"y":40,"wires":[["99465cf54a644259"]]},{"id":"d77040f4713bfce5","type":"function","z":"3f152da42a676d42","name":"env ain","func":"if (msg.ain === undefined){\n    msg.ain = env.get(\"ain\");\n}\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","libs":[],"x":160,"y":40,"wires":[["1f0a79874e2a8d70"]]},{"id":"99465cf54a644259","type":"change","z":"3f152da42a676d42","name":"delete","rules":[{"t":"delete","p":"iconNumber","pt":"msg"},{"t":"delete","p":"payload","pt":"msg"}],"action":"","property":"","from":"","to":"","reg":false,"x":1850,"y":40,"wires":[[]]},{"id":"4064abf62c97a123","type":"fritz-api","name":"","host":"http://fritz.box","strictSSL":true}]
 ```
-![smarthome fritz subflow](https://github.com/gitmacer/Fritzfon-Solardisplay/assets/37345589/b3b1f8e0-4c25-4fe1-9a58-03130a8bfdc6)   
+![smarthome fritz subflow](https://github.com/gitmacer/Homedisplay-for-Fritzfon/assets/37345589/b3b1f8e0-4c25-4fe1-9a58-03130a8bfdc6)   
 Füge ein change node hinzu welches die Werte auf die richtige icon nummer Variable setzt.   
-![grafik](https://github.com/gitmacer/Fritzfon-Solardisplay/assets/37345589/481df9a3-da3a-4158-8385-05ad69ea7507)   
+![grafik](https://github.com/gitmacer/Homedisplay-for-Fritzfon/assets/37345589/481df9a3-da3a-4158-8385-05ad69ea7507)   
 Füge ein smart-home image node ein und konfiguriere ihn.
-![smarthome image](https://github.com/gitmacer/Fritzfon-Solardisplay/assets/37345589/d3edddd9-fde1-48b4-a6c8-c6106bc4d5b8)   
+![smarthome image](https://github.com/gitmacer/Homedisplay-for-Fritzfon/assets/37345589/d3edddd9-fde1-48b4-a6c8-c6106bc4d5b8)   
 
-[Nächster Schritt: Fritzfon Einstellungen](https://github.com/gitmacer/Fritzfon-Solardisplay#fritzfon)
+[Nächster Schritt: Fritzfon Einstellungen](https://github.com/gitmacer/Homedisplay-for-Fritzfon#fritzfon)
 
 # InfluxDB:
 Installiere InfluxDB nodes.   
@@ -158,7 +158,7 @@ from(bucket: "bucket")
 
 Füge ein "change" node hinzu um die daten auf die richtige Variable zu setzen.   
 Ich empfehle mithilfe eines Debug-Nodes die richtige Pfad herauszufinden.   
-![Debug Pfad](https://github.com/gitmacer/Fritzfon-Smarthome-Solardisplay/assets/37345589/49a6721b-167b-4103-a7ce-89c2e25efcd4)   
+![Debug Pfad](https://github.com/gitmacer/Homedisplay-for-Fritzfon/assets/37345589/49a6721b-167b-4103-a7ce-89c2e25efcd4)   
 
 z.B. msg.value11 auf   
 Influxdb 1.X: `msg.payload[0].last_value`    
@@ -181,7 +181,7 @@ Vergebe einen Namen, Adresse (Hostname oder feste IP des Node-red Servers vor de
 
 Nachdem Bestätigen ist das Display unter "Menu/Heimnetz/Live-Bild" auf dem Fritzfon aufrufbar.   
 Tipp: Du kannst Live-Bilder zu den Fritzfon Favoriten hinzufügen für schnelleren Zugriff.   
-![grafik](https://github.com/gitmacer/Fritzfon-Smarthome-Solardisplay/assets/37345589/8bcced33-67c4-4953-870f-30aebed2d1f2)
+![grafik](https://github.com/gitmacer/Homedisplay-for-Fritzfon/assets/37345589/8bcced33-67c4-4953-870f-30aebed2d1f2)
 
 
 # Donationware:
@@ -195,7 +195,7 @@ You need to install
 [Node-Red image tools](https://flows.nodered.org/node/node-red-contrib-image-tools) before importing my subflow.   
 ![Jimp installation](https://user-images.githubusercontent.com/37345589/228313961-9bf6407b-8946-4bc2-8907-313227f4a952.gif)
 
-Import the latest version from [Releases](https://github.com/gitmacer/Fritzfon-Solardisplay/releases).   
+Import the latest version from [Releases](https://github.com/gitmacer/Homedisplay-for-Fritzfon/releases).   
 ![2  import](https://user-images.githubusercontent.com/37345589/228585979-1c44dbf8-88cb-423e-a701-2452e1fb4e81.gif)
 
 Add a "http in" node and give it a unique url.   
@@ -228,7 +228,7 @@ from(bucket: "bucket")
 
 Add a "change" node to set the queried data to right variable.   
 I recommend to use a debug node to find the right path.
-![Debug Pfad](https://github.com/gitmacer/Fritzfon-Smarthome-Solardisplay/assets/37345589/3014aece-135c-45b0-a749-3a30585643d4)
+![Debug Pfad](https://github.com/gitmacer/Homedisplay-for-Fritzfon/assets/37345589/3014aece-135c-45b0-a749-3a30585643d4)
 
 Influxdb 1.X: `msg.payload[0].last_value`   
 Influxdb 2.X: `msg.payload[0]._value`   
@@ -236,9 +236,9 @@ Influxdb 2.X: `msg.payload[0]._value`
 # Solar image vs smart-home image:   
 Solar:
 - Solar only is available   
-![Solar-Power](https://github.com/gitmacer/Fritzfon-Solardisplay/assets/37345589/9f91daf3-7c41-4d00-b749-84b94d2290a1)
+![Solar-Power](https://github.com/gitmacer/Homedisplay-for-Fritzfon/assets/37345589/9f91daf3-7c41-4d00-b749-84b94d2290a1)
 - Solar to home available   
-![SolarToHouse Marked](https://github.com/gitmacer/Fritzfon-Solardisplay/assets/37345589/ee503f7c-7d6a-434d-b161-d5f1fe88661e)
+![SolarToHouse Marked](https://github.com/gitmacer/Homedisplay-for-Fritzfon/assets/37345589/ee503f7c-7d6a-434d-b161-d5f1fe88661e)
 - To home and home calculation
 - Kwh to € calculation
 
@@ -248,9 +248,9 @@ Smart-home image:
 - label/headline for each icon   
 - 3 rows per icon if small value and unit is selected
 - unit per value   
-![Smat-home demo en](https://github.com/gitmacer/Fritzfon-Solardisplay/assets/37345589/89de392b-c63c-4eef-9179-69108929e395)
+![Smat-home demo en](https://github.com/gitmacer/Homedisplay-for-Fritzfon/assets/37345589/89de392b-c63c-4eef-9179-69108929e395)
 - colored circles   
-![circle](https://github.com/gitmacer/Fritzfon-Solardisplay/assets/37345589/c1300398-43e4-4751-a4a0-1c1009513d40)
+![circle](https://github.com/gitmacer/Homedisplay-for-Fritzfon/assets/37345589/c1300398-43e4-4751-a4a0-1c1009513d40)
 
 # Input variables
 ## Solar image:   
