@@ -176,7 +176,7 @@ In diesem fall "unit" auf "W"... anschließend wird der Flow übernommen.
 # Fritzfon
 Navigiere in der Fritzbox Oberfläche (fritz.box) zu "Telefonie"/Telefoniegeräte/Live-Bilder"   
 und klicke auf "Neues Live-Bild hinzufügen"   
-Vergebe einen Namen, Adresse (Hostname oder feste IP des Node-red Servers vor der vorhervergebenen Adresse) und setze den Abrufintervall auf z.B. 1 Sec.
+Vergebe einen Namen, Adresse (Hostname oder feste IP "mit aktueller Fritzbox Version funktioniert nur feste IP" des Node-red Servers vor der vorhervergebenen Adresse) und setze den Abrufintervall auf z.B. 1 Sec.
 ![Screenshot 2023-03-29 180119](https://user-images.githubusercontent.com/37345589/228598469-35785386-3213-4023-b37c-20af269b8c4d.png)
 
 Nachdem Bestätigen ist das Display unter "Menu/Heimnetz/Live-Bild" auf dem Fritzfon aufrufbar.   
@@ -311,7 +311,7 @@ Then deploy the flow.
 # Config fritzfon
 Navigate to "Telephony"/Telephony Devices/Live Image"   
 and click on "Add New Live Image"   
-Set a unique name, url you chosed before (Add hostname or fixed IP of the Node-Red server in front) and set intervall to 1 sec.
+Set a unique name, url you chosed before (Add hostname or fixed IP "current Fritzbox updates broke hostname support" of the Node-Red server in front) and set intervall to 1 sec.
 ![Screenshot 2023-03-29 180119](https://user-images.githubusercontent.com/37345589/228598469-35785386-3213-4023-b37c-20af269b8c4d.png)
 
 After applying you should be able to show the image on your Fritzfon under "Menu/Home Network/Live Image".
